@@ -30,7 +30,7 @@ class App extends Component {
     // const {suggestion} = suggestionsListText
 
     const searchResults = suggestionsListText.filter(eachUser =>
-      eachUser.suggestion.includes(searchInput),
+      eachUser.suggestion.toLowerCase().includes(searchInput.toLowerCase()),
     )
 
     this.setState({
