@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.arrow-icon-text {
+  margin: 5px;
+  list-style-type: none;
+}
+.arrow-button {
+  cursor: pointer;
+  outline: none;
+}
+.arrow-img {
+  height: 20px;
+  width: 20px;
+}

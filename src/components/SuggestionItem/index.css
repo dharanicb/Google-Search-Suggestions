@@ -1,0 +1,17 @@
+/* Write your CSS here */
+
+.suggestion-text {
+  color: #64748b;
+  font-weight: 'Roboto';
+  font-size: 20px;
+  margin: 5px;
+}
+.arrow-img {
+  height: 30px;
+  width: 30px;
+}
+.arrow-icon-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
